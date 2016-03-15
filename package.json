@@ -32,6 +32,9 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.0",
     "grunt-contrib-clean": "^0.7.0",
